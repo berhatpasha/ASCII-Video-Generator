@@ -14,3 +14,4 @@ Do not run the Python file directly.
 
 ** After use, you do not need to delete the image folders in the engine part (/engine/image & /engine/usedImage).
 
+**There is a sample video inside the project (video.mp4)
