@@ -84,7 +84,7 @@ def convert_to_ascii(input_dir, output_dir, frame_count):
         with open(output_path, "w") as f:
             f.write(ascii_image)
 
-        print(f"Saved ASCII art {output_path}")
+        print(f"{Fore.GREEN}Saved ASCII art !! ")
 
 def display_ascii_video(output_dir, frame_count):
     while True:
@@ -97,7 +97,7 @@ def display_ascii_video(output_dir, frame_count):
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print(Fore.LIGHTBLACK_EX+f.read())
 
-            time.sleep(0.01)
+            time.sleep(0.0300)
 
 if __name__ == "__main__":
     main()
